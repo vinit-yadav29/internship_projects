@@ -1,0 +1,90 @@
+Internship Report – MediChatbot Project
+Name: Vinit yadav
+Internship Duration: July 2, 2025 – August 2, 2025
+Project Name: MediChatbot – A Medical Question-Answering Bot
+Organization: NullClass
+
+1. Introduction
+As part of my internship at NullClass, I worked on developing a chatbot that answers medical questions using a real-world medical dataset. The idea was to build a tool that could provide users with relevant health-related answers, similar to how a basic medical assistant might respond.
+
+2. Background
+Medical information is hard to navigate, especially online. This chatbot aims to solve that problem by using a reliable dataset from MedQuAD, which contains thousands of verified medical Q&A pairs. My goal was to load this data, build a model that can understand and match user questions to the closest answers, and wrap it all in a simple chatbot application.
+
+3. Goals & What I Learned
+Here’s what I set out to do and learned:
+
+✅ Load and clean XML data from the MedQuAD dataset
+
+✅ Train a model that can match medical questions to answers
+
+✅ Use Python libraries like sklearn and langdetect
+
+✅ Build a command-line chatbot in Python
+
+✅ Save and reuse the trained model using pickle
+
+✅ Organize code and files properly for GitHub submission
+
+4. What I Worked On
+Data Loading:
+First, I wrote a script to go through over 11,000 XML files in the MedQuAD dataset. I extracted about 16,000 useful Q&A pairs.
+
+Model Building:
+I used simple NLP techniques like vectorizing text with TF-IDF and calculating cosine similarity to find the best matching answer. This was done using scikit-learn.
+
+Chatbot Interface:
+The user can ask a question in the terminal, and the model gives back a relevant medical answer. It's not a flashy UI, but it works well.
+
+Evaluation:
+I tested the model by feeding in known questions and checking if it returned the correct answers. The accuracy was about 98.2%, which was great for a basic retriever model.
+
+5. Challenges I Faced
+Parsing XMLs was messy – Different folders had slightly different formats. I solved this by writing a flexible parser.
+
+Initial model wasn’t saving – I fixed this by checking file paths and ensuring the directory existed before saving.
+
+Accuracy concerns – I added some evaluation checks and refined the similarity method to improve performance.
+
+6. Tools & Tech Used
+Python
+
+Jupyter Notebook
+
+Scikit-learn
+
+Langdetect
+
+XML parsing (xml.etree.ElementTree)
+
+Git & GitHub for version control
+
+7. Outcome
+By the end of the project, I had:
+
+A working command-line chatbot
+
+A saved model (qa_retriever.pkl)
+
+Structured code and folders for GitHub
+
+A README and requirements.txt file
+
+Most importantly, a stronger grasp of building NLP tools
+
+8. Conclusion
+This internship gave me hands-on experience with real-world data, helped me improve my Python skills, and taught me how to build a small-scale chatbot from scratch. It wasn’t always easy, but figuring things out on my own made it more rewarding.
+
+Submitted Files
+📁 model_training.ipynb – for training the model
+
+📁 app.py – the chatbot interface
+
+📁 chatbot_utils.py – helper functions
+
+📁 saved_model/qa_retriever.pkl – the trained model
+
+📁 requirements.txt – libraries needed
+
+📁 README.md – project overview
+
+📁 report/internship_report.txt – this report

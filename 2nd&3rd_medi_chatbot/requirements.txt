@@ -1,0 +1,8 @@
+scikit-learn  
+langdetect  
+googletrans==4.0.0rc1  
+pandas  
+numpy  
+lxml  
+beautifulsoup4  
+streamlit (optional for UI)

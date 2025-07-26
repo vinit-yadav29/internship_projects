@@ -46,11 +46,4 @@ Project 3 is an **extension** of Project 2 and is implemented within the same so
 
 ---
 
-## ✅ Submission Checklist
 
-- [x] Two clearly defined projects
-- [x] Requirements file included
-- [x] Trained model saved and referenced
-- [x] Training in Jupyter Notebook (`.ipynb`)
-- [x] Accuracy ≥ 98%
-- [x] Folder structure and documentation aligned with NullClass submission guidelines

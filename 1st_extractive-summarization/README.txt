@@ -53,15 +53,3 @@ Don’t forget to download the required NLTK data in the notebook:
 nltk.download('punkt')
 nltk.download('stopwords')
 
-Future Improvements:
-- Use lemmatization instead of stemming
-- Integrate spaCy for better linguistic preprocessing
-- Add support for TextRank or transformer-based summarizers
-- Build a Streamlit or Gradio-based web interface
-
-Author:
-Your Name
-https://github.com/your-username
-
-License:
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it.
